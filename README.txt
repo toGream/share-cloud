@@ -81,6 +81,7 @@ spring.cloud.config.uri= http://localhost:8888/
 	</plugins>
 </build>
 
+3.注意：application.yml文件的resources资源路径不能命名为resource，否则会导致本地可以运行，打包后出现报错问题。
 
 
 
